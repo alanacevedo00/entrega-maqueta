@@ -1,0 +1,131 @@
+/* Variables */
+:root {
+    --primary: #1e90ff;
+    --secondary: #333;
+  
+    --bg-gradient: linear-gradient(to bottom, #fff, #cdf);
+    --box-color: #acf; 
+  }
+  
+  /* Generales */
+  body {
+    background: var(--bg-gradient);
+    font-family: 'Raleway', sans-serif;
+    text-align: center; 
+  }
+  
+  h1,
+  h2,  
+  h3 {
+    color: var(--secondary);
+  }
+  
+  p {
+    color: #555;
+  }
+  
+  a {
+    color: var(--primary);
+    text-decoration: none;  
+  }
+  
+  /* Botones */
+  button {
+    background: var(--primary);
+    border: none;
+    color: #fff;
+    padding: 0.5em 1em;
+    border-radius: 10px;
+    box-shadow: 2px 2px 0px #fff;
+    cursor: pointer;
+    transition: box-shadow 0.2s; 
+  }
+  
+  button:hover {
+    box-shadow: 5px 5px 0px #fff;
+  }
+  
+  /* Layout */
+  header,
+  footer {
+    background: var(--primary);
+    color: #fff;
+    padding: 1em;
+  } 
+  
+  /* Forms */
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 1em;
+    border-radius: 10px;
+    box-shadow: 2px 2px 0px #fff;
+  }
+  
+  form:hover {
+    box-shadow: 5px 5px 0px #fff;
+  }
+  
+  /* Cuentas */
+  .tabla-cuentas {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  /* Transferencias */
+  #formulario-transferencias {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 0px #fff; 
+  }
+  
+  #formulario-transferencias:hover {
+    box-shadow: 5px 5px 0px #fff;
+  }
+
+  .container.conversor {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+  
+  /* Pagos */
+  .form-pago {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 0px #fff;
+  }
+  
+  .form-pago:hover {
+    box-shadow: 5px 5px 0px #fff; 
+  }
+  
+  /* Home */
+  nav li {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 0px #fff; 
+  }
+  
+  nav li:hover {
+     box-shadow: 5px 5px 0px #fff;
+  }
+  
+ /* Home */
+
+.promocion {
+    padding: 20px; 
+    background-color: #72b0bf;
+    border-radius: 5px;
+    box-shadow: 2px 2px 0px #fff;
+    transition: box-shadow 0.2s;
+  }
+  
+  .promocion:hover {
+    box-shadow: 5px 5px 0px #fff;
+  }
+
