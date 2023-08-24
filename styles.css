@@ -114,7 +114,19 @@
   nav li:hover {
      box-shadow: 5px 5px 0px #fff;
   }
-  
+
+.pie {
+    background-color: #1e90ff; 
+    color: white; 
+    padding: 10px; 
+  }
+
+  .pie a {
+    color: white;
+    text-decoration: none; 
+  }
+
+
  /* Home */
 
 .promocion {
